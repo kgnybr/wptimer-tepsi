@@ -134,7 +134,7 @@ namespace wptimer
             {
                 
                  sFileName = tpsofdlog.FileName;
-                //Bu kısımda biraz google'den yardım aldım fazla açıklayıcı olamayacağım :).
+                //Bu kısımda biraz google'den yardım aldım fazla açıklayıcı olamayacağım :). Excel'den listboxa numaraları aktarmaya yarayan birkaç satır kod.
                 con = new OleDbConnection($@"Provider = Microsoft.ACE.OLEDB.12.0; Data Source = {sFileName}; Extended Properties ='Excel 12.0 xml; HDR = YES; '");
                 cmd = new OleDbCommand("SELECT *FROM [nums$]", con);
                 con.Open();

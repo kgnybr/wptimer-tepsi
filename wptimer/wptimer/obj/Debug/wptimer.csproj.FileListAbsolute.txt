@@ -18,3 +18,13 @@ C:\Users\huawei\source\repos\wptimer\wptimer\obj\Debug\wptimer.csproj.GenerateRe
 C:\Users\huawei\source\repos\wptimer\wptimer\obj\Debug\wptimer.csproj.CoreCompileInputs.cache
 C:\Users\huawei\source\repos\wptimer\wptimer\obj\Debug\wptimer.exe
 C:\Users\huawei\source\repos\wptimer\wptimer\obj\Debug\wptimer.pdb
+C:\Users\Kağan\Documents\GitHub\wptimer-tepsi\wptimer\wptimer\bin\Debug\wptimer.exe.config
+C:\Users\Kağan\Documents\GitHub\wptimer-tepsi\wptimer\wptimer\bin\Debug\wptimer.exe
+C:\Users\Kağan\Documents\GitHub\wptimer-tepsi\wptimer\wptimer\bin\Debug\wptimer.pdb
+C:\Users\Kağan\Documents\GitHub\wptimer-tepsi\wptimer\wptimer\obj\Debug\wptimer.csproj.AssemblyReference.cache
+C:\Users\Kağan\Documents\GitHub\wptimer-tepsi\wptimer\wptimer\obj\Debug\wptimer.Form1.resources
+C:\Users\Kağan\Documents\GitHub\wptimer-tepsi\wptimer\wptimer\obj\Debug\wptimer.Properties.Resources.resources
+C:\Users\Kağan\Documents\GitHub\wptimer-tepsi\wptimer\wptimer\obj\Debug\wptimer.csproj.GenerateResource.cache
+C:\Users\Kağan\Documents\GitHub\wptimer-tepsi\wptimer\wptimer\obj\Debug\wptimer.csproj.CoreCompileInputs.cache
+C:\Users\Kağan\Documents\GitHub\wptimer-tepsi\wptimer\wptimer\obj\Debug\wptimer.exe
+C:\Users\Kağan\Documents\GitHub\wptimer-tepsi\wptimer\wptimer\obj\Debug\wptimer.pdb
