@@ -54,6 +54,8 @@ namespace wptimer
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -63,7 +65,7 @@ namespace wptimer
             this.numBox.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold);
             this.numBox.ForeColor = System.Drawing.Color.White;
             this.numBox.Location = new System.Drawing.Point(8, 81);
-            this.numBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.numBox.Margin = new System.Windows.Forms.Padding(2);
             this.numBox.Name = "numBox";
             this.numBox.Size = new System.Drawing.Size(86, 19);
             this.numBox.TabIndex = 0;
@@ -76,7 +78,7 @@ namespace wptimer
             this.numList.FormattingEnabled = true;
             this.numList.ItemHeight = 12;
             this.numList.Location = new System.Drawing.Point(169, 54);
-            this.numList.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.numList.Margin = new System.Windows.Forms.Padding(2);
             this.numList.Name = "numList";
             this.numList.Size = new System.Drawing.Size(91, 136);
             this.numList.TabIndex = 1;
@@ -88,7 +90,7 @@ namespace wptimer
             this.addNum.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.addNum.ForeColor = System.Drawing.Color.White;
             this.addNum.Location = new System.Drawing.Point(98, 67);
-            this.addNum.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.addNum.Margin = new System.Windows.Forms.Padding(2);
             this.addNum.Name = "addNum";
             this.addNum.Size = new System.Drawing.Size(67, 46);
             this.addNum.TabIndex = 2;
@@ -114,7 +116,7 @@ namespace wptimer
             this.radioC.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.radioC.ForeColor = System.Drawing.Color.White;
             this.radioC.Location = new System.Drawing.Point(8, 28);
-            this.radioC.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.radioC.Margin = new System.Windows.Forms.Padding(2);
             this.radioC.Name = "radioC";
             this.radioC.Size = new System.Drawing.Size(62, 18);
             this.radioC.TabIndex = 4;
@@ -128,7 +130,7 @@ namespace wptimer
             this.radioO.Font = new System.Drawing.Font("Arial", 7.8F);
             this.radioO.ForeColor = System.Drawing.Color.White;
             this.radioO.Location = new System.Drawing.Point(71, 28);
-            this.radioO.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.radioO.Margin = new System.Windows.Forms.Padding(2);
             this.radioO.Name = "radioO";
             this.radioO.Size = new System.Drawing.Size(55, 18);
             this.radioO.TabIndex = 5;
@@ -142,7 +144,7 @@ namespace wptimer
             this.radioF.Font = new System.Drawing.Font("Arial", 7.8F);
             this.radioF.ForeColor = System.Drawing.Color.White;
             this.radioF.Location = new System.Drawing.Point(128, 28);
-            this.radioF.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.radioF.Margin = new System.Windows.Forms.Padding(2);
             this.radioF.Name = "radioF";
             this.radioF.Size = new System.Drawing.Size(59, 18);
             this.radioF.TabIndex = 6;
@@ -156,7 +158,7 @@ namespace wptimer
             this.msgBox.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold);
             this.msgBox.ForeColor = System.Drawing.Color.White;
             this.msgBox.Location = new System.Drawing.Point(8, 124);
-            this.msgBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.msgBox.Margin = new System.Windows.Forms.Padding(2);
             this.msgBox.Name = "msgBox";
             this.msgBox.Size = new System.Drawing.Size(147, 73);
             this.msgBox.TabIndex = 7;
@@ -169,7 +171,7 @@ namespace wptimer
             this.startButton.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold);
             this.startButton.ForeColor = System.Drawing.Color.White;
             this.startButton.Location = new System.Drawing.Point(98, 242);
-            this.startButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.startButton.Margin = new System.Windows.Forms.Padding(2);
             this.startButton.Name = "startButton";
             this.startButton.Size = new System.Drawing.Size(56, 25);
             this.startButton.TabIndex = 8;
@@ -181,7 +183,7 @@ namespace wptimer
             // 
             this.dateTimePicker1.CalendarFont = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold);
             this.dateTimePicker1.Location = new System.Drawing.Point(8, 219);
-            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(2);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(147, 20);
             this.dateTimePicker1.TabIndex = 0;
@@ -192,7 +194,7 @@ namespace wptimer
             this.stBox.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold);
             this.stBox.ForeColor = System.Drawing.Color.White;
             this.stBox.Location = new System.Drawing.Point(8, 242);
-            this.stBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.stBox.Margin = new System.Windows.Forms.Padding(2);
             this.stBox.Mask = "00:00";
             this.stBox.Name = "stBox";
             this.stBox.Size = new System.Drawing.Size(76, 19);
@@ -221,7 +223,7 @@ namespace wptimer
             this.gxRadio.Font = new System.Drawing.Font("Arial", 7.8F);
             this.gxRadio.ForeColor = System.Drawing.Color.White;
             this.gxRadio.Location = new System.Drawing.Point(186, 28);
-            this.gxRadio.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gxRadio.Margin = new System.Windows.Forms.Padding(2);
             this.gxRadio.Name = "gxRadio";
             this.gxRadio.Size = new System.Drawing.Size(70, 18);
             this.gxRadio.TabIndex = 6;
@@ -236,7 +238,7 @@ namespace wptimer
             this.importButton.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold);
             this.importButton.ForeColor = System.Drawing.Color.White;
             this.importButton.Location = new System.Drawing.Point(264, 53);
-            this.importButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.importButton.Margin = new System.Windows.Forms.Padding(2);
             this.importButton.Name = "importButton";
             this.importButton.Size = new System.Drawing.Size(76, 46);
             this.importButton.TabIndex = 12;
@@ -251,7 +253,7 @@ namespace wptimer
             this.deleteNum.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold);
             this.deleteNum.ForeColor = System.Drawing.Color.White;
             this.deleteNum.Location = new System.Drawing.Point(264, 104);
-            this.deleteNum.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.deleteNum.Margin = new System.Windows.Forms.Padding(2);
             this.deleteNum.Name = "deleteNum";
             this.deleteNum.Size = new System.Drawing.Size(76, 42);
             this.deleteNum.TabIndex = 13;
@@ -296,7 +298,7 @@ namespace wptimer
             this.panel1.Controls.Add(this.hideLbl);
             this.panel1.Controls.Add(this.titleLbl);
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(354, 22);
             this.panel1.TabIndex = 16;
@@ -352,12 +354,32 @@ namespace wptimer
             this.label3.TabIndex = 3;
             this.label3.Text = "Gönderliecek Tarih:";
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold);
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(306, 248);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(34, 14);
+            this.label4.TabIndex = 17;
+            this.label4.Text = "Gizle";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
+            // 
+            // notifyIcon1
+            // 
+            this.notifyIcon1.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon1.Icon")));
+            this.notifyIcon1.Text = "Tepsi";
+            this.notifyIcon1.Visible = true;
+            this.notifyIcon1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.notifyIcon1_MouseDoubleClick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(211)))), ((int)(((byte)(102)))));
             this.ClientSize = new System.Drawing.Size(354, 268);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.deleteNum);
             this.Controls.Add(this.label2);
@@ -379,7 +401,7 @@ namespace wptimer
             this.Controls.Add(this.numBox);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Tepsi";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -415,6 +437,8 @@ namespace wptimer
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.NotifyIcon notifyIcon1;
     }
 }
 

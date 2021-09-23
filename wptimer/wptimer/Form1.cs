@@ -208,6 +208,18 @@ namespace wptimer
         {
             Move = 0;
         }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            
+
+        }
+
+        private void notifyIcon1_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            this.Show();
+        }
     }
 }
 //Umarım beğenirsiniz.
